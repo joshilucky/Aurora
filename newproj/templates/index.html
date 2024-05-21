@@ -1,0 +1,14 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hello</title>
+</head>
+<body>
+<h1>Hello Hello..!!</h1>
+<ol>
+{% for i in originpost %}
+<li>{{i.name}}</li>
+<img src="{{i.image.url}}" style="height: 100px; width: 100px;">
+
+{% endfor %}
+</ol>
+</body>
+</html>
